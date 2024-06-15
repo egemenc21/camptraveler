@@ -18,6 +18,7 @@ function Hero() {
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
+          priority
         />
         <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
@@ -37,6 +38,7 @@ function Hero() {
                   alt="star"
                   height={24}
                   width={24}
+                  priority
                 />
               ))}
           </div>
@@ -62,7 +64,7 @@ function Hero() {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
-              <Image src="/close.svg" alt="close" width={24} height={24} />
+              <Image src="/close.svg" alt="close" width={24} height={24} priority />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
